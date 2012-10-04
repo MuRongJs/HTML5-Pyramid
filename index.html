@@ -4,6 +4,51 @@
     <meta charset="utf-8" />
     <title>HTML5 Pyramid</title>
     <style>
+        @-webkit-keyframes turnIt {
+            from {
+                -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            }
+            to {
+                -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+            }
+        }
+
+        @-moz-keyframes turnIt {
+            from {
+                -moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            }
+            to {
+                -moz-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+            }
+        }
+
+        @-ms-keyframes turnIt {
+            from {
+                -ms-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            }
+            to {
+                -ms-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+            }
+        }
+
+        @-o-keyframes turnIt {
+            from {
+                -o-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            }
+            to {
+                -o-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+            }
+        }
+
+        @keyframes turnIt {
+            from {
+                transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            }
+            to {
+                transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+            }
+        }
+
         html, body{
             height: 100%;
             overflow: hidden;
@@ -109,51 +154,6 @@
             background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,.8) 0%, rgba(119, 119, 119, .8) 90%);
             background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,.8) 0%, rgba(119, 119, 119, .8) 90%);
             background: radial-gradient(center, ellipse cover, rgba(255,255,255,.8) 0%, rgba(119, 119, 119, .8) 90%);
-        }
-
-        @-webkit-keyframes turnIt {
-            from {
-                -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-            }
-            to {
-                -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
-            }
-        }
-
-        @-moz-keyframes turnIt {
-            from {
-                -moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-            }
-            to {
-                -moz-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
-            }
-        }
-
-        @-ms-keyframes turnIt {
-            from {
-                -ms-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-            }
-            to {
-                -ms-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
-            }
-        }
-
-        @-o-keyframes turnIt {
-            from {
-                -o-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-            }
-            to {
-                -o-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
-            }
-        }
-
-        @keyframes turnIt {
-            from {
-                transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-            }
-            to {
-                transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
-            }
         }
     </style>
 </head>
